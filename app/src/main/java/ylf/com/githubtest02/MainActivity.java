@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         synchronized ("ss"){
             System.out.print("11");
+            System.out.print("22");
         }
     }
 }
